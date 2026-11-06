@@ -1,13 +1,13 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Prafull%20Narang&fontSize=56&fontColor=ffffff&fontAlignY=36&desc=MCA%20%40%20NIT%20Warangal%20%C2%B7%20Class%20of%202027&descAlignY=58&descSize=18&animation=fadeIn" width="100%"/>
+<img src="./assets/banner.svg" alt="Prafull Narang — Backend · GenAI / RAG · High-performance C++" width="100%"/>
 
 <div align="center">
 
-<a href="https://github.com/prafullf"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=620&lines=Backend+%26+Distributed+Systems+Engineer;GenAI+%2F+RAG+Builder;Multi-threaded+C%2B%2B+Developer;Open+to+SDE+%26+ML+roles+%E2%80%94+2027+batch" alt="Typing SVG"/></a>
+<a href="https://github.com/prafullf"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=7FB0FF&center=true&vCenter=true&width=620&lines=Backend+%26+Distributed+Systems+Engineer;GenAI+%2F+RAG+Builder;Multi-threaded+C%2B%2B+Developer;Open+to+SDE+%26+ML+roles+%E2%80%94+2027+batch" alt="Typing SVG"/></a>
 
 <a href="https://www.linkedin.com/in/prafull-narang-02a61b247"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 <a href="mailto:prafullnarang03@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 <a href="https://leetcode.com/u/wGm6kK22FK/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode"/></a>
-<img src="https://komarev.com/ghpvc/?username=prafullf&label=Profile%20views&color=58a6ff&style=for-the-badge" alt="Profile views"/>
+<img src="https://komarev.com/ghpvc/?username=prafullf&label=Profile%20views&color=2459cc&style=for-the-badge" alt="Profile views"/>
 
 </div>
 
@@ -28,13 +28,7 @@ fun_fact:  AIR 1956 in NIMCET 2024
 
 ### 📈 Numbers I'm proud of
 
-<div align="center">
-
-| ⚡ **2.7 M/s** | 🎯 **99.8%** | 🚀 **p95 240 ms** | ✅ **86 tests** |
-|:---:|:---:|:---:|:---:|
-| samples processed by my C++17 telemetry agent, zero loss | DDoS detection accuracy, attacks blocked in 1.6 s | sandboxed code-run turnaround at 200 runs/min | in CodeSync, plus E2E, load tests and CI |
-
-</div>
+<img src="./assets/metrics.svg" alt="2.7M samples/s · 99.8% accuracy · 240 ms p95 · 670K+ cases" width="100%"/>
 
 ---
 
@@ -140,4 +134,4 @@ The fastest way to reach me is **[prafullnarang03@gmail.com](mailto:prafullnaran
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=120&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:020a2c,50:0a1f62,100:2459cc&height=120&section=footer" width="100%"/>
