@@ -1,96 +1,143 @@
-<h1 align="center">Hi, I'm Prafull Narang 👋</h1>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Prafull%20Narang&fontSize=56&fontColor=ffffff&fontAlignY=36&desc=MCA%20%40%20NIT%20Warangal%20%C2%B7%20Class%20of%202027&descAlignY=58&descSize=18&animation=fadeIn" width="100%"/>
 
-<p align="center">
-  <b>MCA @ NIT Warangal (2024–2027)</b> · I build distributed backends, GenAI/RAG systems and fast multi-threaded C++.<br/>
-  Open to <b>SDE · Backend · ML/GenAI Engineer</b> roles (full-time, 2027 batch).
-</p>
+<div align="center">
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/prafull-narang-02a61b247"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="mailto:prafullnarang03@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-  <a href="https://leetcode.com/u/wGm6kK22FK/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode"/></a>
-</p>
+<a href="https://github.com/prafullf"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=620&lines=Backend+%26+Distributed+Systems+Engineer;GenAI+%2F+RAG+Builder;Multi-threaded+C%2B%2B+Developer;Open+to+SDE+%26+ML+roles+%E2%80%94+2027+batch" alt="Typing SVG"/></a>
+
+<a href="https://www.linkedin.com/in/prafull-narang-02a61b247"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+<a href="mailto:prafullnarang03@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+<a href="https://leetcode.com/u/wGm6kK22FK/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode"/></a>
+<img src="https://komarev.com/ghpvc/?username=prafullf&label=Profile%20views&color=58a6ff&style=for-the-badge" alt="Profile views"/>
+
+</div>
 
 ---
 
-### ⚡ At a glance
+### 👨‍💻 About me
 
-- 🔬 **Research Intern, NIT Warangal**: statistical model checking of COVID-19 spread on 670K+ real cases
-- 🏗️ Built a **real-time collaborative code editor**: 600/600 sandboxed runs at 200 runs/min, p95 **240 ms**, 86 tests, deployed on Azure
-- 🚀 Wrote a **C++17 telemetry agent** that processes **~2.7 M samples/s** with zero loss, verified under TSan/ASan/UBSan
-- 🛡️ Built an **ML-based DDoS filter** for IoT that blocks floods in **1.6 s** with **99.8%** accuracy
-- 🏆 **AIR 1956** in NIMCET 2024 · **124+** LeetCode problems solved
+```yaml
+name:      Prafull Narang
+education: MCA, NIT Warangal (2024–2027)
+research:  Research Intern @ NIT Warangal — statistical model checking on 670K+ real COVID-19 cases
+building:  distributed backends · RAG systems · high-throughput C++ pipelines
+looking:   SDE / Backend / ML Engineer roles (full-time, 2027)
+fun_fact:  AIR 1956 in NIMCET 2024
+```
+
+---
+
+### 📈 Numbers I'm proud of
+
+<div align="center">
+
+| ⚡ **2.7 M/s** | 🎯 **99.8%** | 🚀 **p95 240 ms** | ✅ **86 tests** |
+|:---:|:---:|:---:|:---:|
+| samples processed by my C++17 telemetry agent, zero loss | DDoS detection accuracy, attacks blocked in 1.6 s | sandboxed code-run turnaround at 200 runs/min | in CodeSync, plus E2E, load tests and CI |
+
+</div>
 
 ---
 
 ### 🛠️ Featured projects
 
-#### 🟦 [CodeSync: Real-time Collaborative Code Editor](https://github.com/prafullf/codesync)
-Several people edit one file with live cursors. Anyone can hit **Run**, and the code runs in a fresh, network-less Docker sandbox while everyone in the room sees the output.
+<table>
+<tr>
+<td colspan="2">
 
-<img src="https://raw.githubusercontent.com/prafullf/codesync/main/docs/demo.gif" alt="CodeSync demo: two users edit and run code together" width="640"/>
+#### 🟦 [CodeSync — Real-time Collaborative Code Editor](https://github.com/prafullf/codesync)
+Live multi-user editing with cursors, plus a **Run** button that executes Python / JS / C++ in a fresh, network-less Docker sandbox. Everyone in the room sees the output.
 
-- Conflict-free editing with a **Yjs CRDT** over WebSockets; works offline and syncs on reconnect
-- Execution pipeline: **Fastify → BullMQ (Redis) → 3 stateless workers → isolated container** (128 MB RAM, 0.5 CPU, 5 s limit) for Python, JS and C++
-- k6 load tests: **600/600 runs** at 200 runs/min, **0% HTTP errors**, enqueue p95 **16 ms**
-- Hardened API: JWT auth, owner/editor/viewer roles, hand-written Redis sliding-window rate limiter
-- **86 tests** (sandbox tests use real Docker), Playwright two-user E2E, GitHub Actions CI
+<img src="https://raw.githubusercontent.com/prafullf/codesync/main/docs/demo.gif" alt="CodeSync demo" width="100%"/>
 
-`TypeScript` `React` `Yjs` `Fastify` `Socket.IO` `Redis` `BullMQ` `PostgreSQL` `Prisma` `Docker` `Azure`
+**Yjs CRDT** · **Fastify → BullMQ → 3 workers → isolated container** · Redis sliding-window rate limiter · 600/600 runs at 200/min, 0% errors · 86 tests + Playwright + k6 · deployed on Azure
 
-#### 🤖 [RAG-based Document Q&A Assistant](https://github.com/prafullf/rag-document-qa)
-Ask questions about your own PDFs and notes. Answers come **only** from retrieved passages and carry numbered citations to file and page.
+<img src="https://skillicons.dev/icons?i=ts,react,nodejs,redis,postgres,prisma,docker,azure,githubactions&perline=9" height="34"/>
 
-- Chunking + Gemini embeddings indexed in **PostgreSQL pgvector**, with top-k cosine search
-- **Hallucination guards:** a relevance gate skips the LLM call when nothing relevant is found, plus a strict citation-only prompt
-- Content-hash chunk IDs, so re-uploading a file never duplicates chunks; covered by pytest tests
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-`Python` `LangChain` `Gemini API` `pgvector` `Streamlit` `Docker`
+#### 🤖 [RAG Document Q&A](https://github.com/prafullf/rag-document-qa)
+Ask questions about your own PDFs. Answers come **only** from retrieved passages, with numbered citations to file and page.
 
-#### ⚙️ [Optical Transceiver Telemetry & Alarm Agent](https://github.com/prafullf/optical-telemetry-agent)
-A multi-threaded **C++17** agent that polls optical-port telemetry (Rx/Tx power, OSNR, pre-FEC BER, temperature) and raises alarms the way real network gear does, with hysteresis, debouncing and root-cause masking.
+- pgvector top-k search over Gemini embeddings
+- Relevance gate: no LLM call when nothing matches
+- Content-hash chunk IDs, so re-uploads never duplicate
 
-- **~2.7 M samples/s** with zero loss; capture-to-decision latency p50 **30 µs**, p99 **289 µs**
-- Port-affinity sharding means **lock-free per-port state**; bounded queues give back-pressure
-- A trend detector warns **12–26 samples before** a threshold alarm fires
-- 29 GoogleTest + 6 end-to-end tests; CI runs under **ThreadSanitizer, AddressSanitizer and UBSan**
+<img src="https://skillicons.dev/icons?i=py,postgres,docker" height="30"/> &nbsp;`LangChain` `Gemini` `Streamlit`
 
-`C++17` `Multithreading` `CMake` `GoogleTest` `GitHub Actions`
+</td>
+<td width="50%" valign="top">
 
-#### 🛡️ [ML-based DDoS Detection for IoT using SDN](https://github.com/prafullf/ml-ddos-detection-iot-sdn)
-A Random Forest inside a Ryu SDN controller classifies every IoT flow each second and installs OpenFlow drop rules for attacks.
+#### ⚙️ [Optical Telemetry & Alarm Agent](https://github.com/prafullf/optical-telemetry-agent)
+Multi-threaded **C++17** agent that raises network alarms like real optical gear: hysteresis, debouncing, root-cause masking.
 
-- **99.8% accuracy** from 9 engineered per-flow features; compared 4 ML models on 25K+ samples
-- False positives cut from **2.7% → 0.1%** (F1 0.67 → 0.98) compared with a static threshold
-- **99.5%** legitimate traffic delivered under attack (73.9% unprotected); blocked 4/4 attacks in **1.6 s**
+- **~2.7 M samples/s**, p99 **289 µs** decision latency
+- Port-affinity sharding means no locks on per-port state
+- CI under **TSan, ASan and UBSan**; 35 tests
 
-`Python` `scikit-learn` `Ryu` `Mininet` `Open vSwitch` `Docker`
+<img src="https://skillicons.dev/icons?i=cpp,cmake,linux,githubactions" height="30"/>
 
-#### 📊 [COVID-19 Statistical Model Checking: NIT Warangal Research Internship](https://github.com/prafullf/covid19-smc-telangana)
-- Agent-based SIR Monte Carlo model built on **609 days** of Telangana data (670K+ cases)
-- Chernoff–Hoeffding bound → **737 runs** for ±0.05 accuracy at 95% confidence
-- Found that only faster recovery (vaccination) lowered outbreak probability: **0.998 → 0.936**
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-`Python` `NumPy` `Pandas` `Monte Carlo` `Statistical Model Checking`
+#### 🛡️ [ML DDoS Detection for IoT (SDN)](https://github.com/prafullf/ml-ddos-detection-iot-sdn)
+A Random Forest inside a Ryu controller classifies every IoT flow each second and installs OpenFlow drop rules.
+
+- **99.8%** accuracy, false positives **2.7% → 0.1%**
+- **99.5%** legit traffic delivered under attack (vs 73.9%)
+- Blocked 4/4 attacks in **1.6 s**
+
+<img src="https://skillicons.dev/icons?i=py,sklearn,linux,docker" height="30"/> &nbsp;`Ryu` `Mininet`
+
+</td>
+<td width="50%" valign="top">
+
+#### 📊 [COVID-19 Statistical Model Checking](https://github.com/prafullf/covid19-smc-telangana)
+**Research internship, NIT Warangal.** Agent-based SIR Monte Carlo model on 609 days of Telangana data.
+
+- **670K+** real cases used to estimate β and γ
+- Chernoff–Hoeffding bound → **737 runs** for ±0.05 at 95%
+- Vaccination cut outbreak probability **0.998 → 0.936**
+
+<img src="https://skillicons.dev/icons?i=py" height="30"/> &nbsp;`NumPy` `Pandas` `Monte Carlo`
+
+</td>
+</tr>
+</table>
 
 ---
 
 ### 🧰 Tech stack
 
-**Languages:** ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![C++](https://img.shields.io/badge/C++-00599C?logo=cplusplus&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-4479A1?logo=postgresql&logoColor=white)
+<div align="center">
 
-**Backend:** ![Fastify](https://img.shields.io/badge/Fastify-000000?logo=fastify&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB) ![Socket.IO](https://img.shields.io/badge/Socket.IO-010101?logo=socketdotio&logoColor=white)
+**Languages**<br/>
+<img src="https://skillicons.dev/icons?i=py,cpp,ts,js,mysql&perline=8"/>
 
-**AI / ML:** ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikitlearn&logoColor=white) ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?logo=langchain&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white)
+**Backend & frontend**<br/>
+<img src="https://skillicons.dev/icons?i=fastapi,nodejs,react,redis,postgres&perline=8"/>
 
-**Data & infra:** ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white) ![Azure](https://img.shields.io/badge/Azure-0078D4?logo=microsoftazure&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black)
+**AI / ML**<br/>
+<img src="https://skillicons.dev/icons?i=pytorch,sklearn&perline=8"/> &nbsp; <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" height="40"/> <img src="https://img.shields.io/badge/RAG%20%C2%B7%20pgvector-336791?style=for-the-badge&logo=postgresql&logoColor=white" height="40"/>
+
+**DevOps & tools**<br/>
+<img src="https://skillicons.dev/icons?i=docker,azure,githubactions,linux,git,cmake&perline=8"/>
+
+</div>
 
 ---
 
-### 🌱 Right now
+<div align="center">
 
-- 📚 Final-year MCA at NIT Warangal, graduating 2027
-- 🧠 Practicing DSA daily in C++ and going deeper into LLM evaluation and system design
-- 📫 Reach me at **prafullnarang03@gmail.com** or on [LinkedIn](https://www.linkedin.com/in/prafull-narang-02a61b247)
+### 🤝 Let's connect
 
-<p align="center"><i>Building things that are fast, tested and actually deployed.</i></p>
+Open to **SDE · Backend · ML/GenAI** roles for the 2027 batch.<br/>
+The fastest way to reach me is **[prafullnarang03@gmail.com](mailto:prafullnarang03@gmail.com)** or **[LinkedIn](https://www.linkedin.com/in/prafull-narang-02a61b247)**.
+
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=120&section=footer" width="100%"/>
